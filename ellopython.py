@@ -12,7 +12,7 @@ while i>0:
     print(i);
     i -= 1
 
-# Check it
+# Check it i HAVE CREATED A IF LOOP
 if i != 0:
     print("Yaay")
 else:
