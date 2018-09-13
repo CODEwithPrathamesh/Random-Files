@@ -1,15 +1,15 @@
 print("Hello World")
 
 animal = "Dog"
-animals = ["Dog", "Cat", "Python"];
+animals = ["Dog", "Cat", "Python"]
 for i in animals:
     print(i)
 
-i = 5;
+i = 5
 print(i)
 
 while i>0:
-    print(i);
+    print(i)
     i -= 1
 
 # Check it i HAVE CREATED A IF LOOP
@@ -25,6 +25,6 @@ if j != 6:
 elif j == 6:
     print("Heyy")
 else: 
-    print("Ka BOom");
+    print("Ka BOom")
 
 # Hey Its cool to be commented
