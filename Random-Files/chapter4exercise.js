@@ -42,16 +42,21 @@
 // consta(-1,1,5);
 
 // ------------- SUM2 -----------------------
-var temp = 0;
-function reversearr(array1){
-    let len = array1.length;
-    for(let i = 0;i<len;i++){
-        temp = array1[i];
-        array1[i] = array1[len-i-1];
-        console.log(array1[len-i-1]);
-        array1[len-i-1] = temp;
-        temp = 0;
-    }
-    console.log(array1);
+// var temp = 0;
+// function reversearr(array1){
+//     let len = array1.length;
+//     for(let i = 0;i<len;i++){
+//         temp = array1[i];
+//         array1[i] = array1[len-i-1];
+//         console.log(array1[len-i-1]);
+//         array1[len-i-1] = temp;
+//         temp = 0;
+//     }
+//     console.log(array1);
+// }
+// reversearr([1,2,3,4,5]);
+
+// ------------SUM3---------------
+function arraylist(array1){
+    
 }
-reversearr([1,2,3,4,5]);
